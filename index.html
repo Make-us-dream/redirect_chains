@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirect Chains Test</title>
+</head>
+<body>
+  <h1>Redirect Chains Test</h1>
+  <p>
+    On Cloudflare Pages, <code>_redirects</code> forces
+    <code>/</code> → <code>/a</code> → <code>/b</code> → <code>/done</code>.
+  </p>
+  <p>
+    If you see this page with status 200, the forced redirects are not applied.
+    Try opening <a href="/done">/done</a> for the final page.
+  </p>
+</body>
+</html>

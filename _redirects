@@ -1,0 +1,4 @@
+# Redirect chain: / → /a → /b → /done (multiple hops = Redirect Chains issue)
+/     /a     301!
+/a    /b     301!
+/b    /done  301!
